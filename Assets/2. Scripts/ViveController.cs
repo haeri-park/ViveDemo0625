@@ -22,7 +22,7 @@ public class ViveController : MonoBehaviour
 
         void Awake()
         {
-            trigger=SteamVR_Actions.default_InteractUI;
+            trigger = SteamVR_Actions.default_InteractUI;
         }
 
     // Update is called once per frame
