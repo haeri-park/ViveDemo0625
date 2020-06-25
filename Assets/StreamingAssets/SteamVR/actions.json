@@ -46,7 +46,7 @@
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/TrackPadPosistion",
+      "name": "/actions/default/in/TrackPadPosition",
       "type": "vector2"
     },
     {

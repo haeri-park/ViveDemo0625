@@ -37,7 +37,7 @@ namespace Valve.VR
         
         private static SteamVR_Action_Boolean p_default_SnapTurnRight;
         
-        private static SteamVR_Action_Vector2 p_default_TrackPadPosistion;
+        private static SteamVR_Action_Vector2 p_default_TrackPadPosition;
         
         private static SteamVR_Action_Boolean p_default_NewAction;
         
@@ -139,11 +139,11 @@ namespace Valve.VR
             }
         }
         
-        public static SteamVR_Action_Vector2 default_TrackPadPosistion
+        public static SteamVR_Action_Vector2 default_TrackPadPosition
         {
             get
             {
-                return SteamVR_Actions.p_default_TrackPadPosistion.GetCopy<SteamVR_Action_Vector2>();
+                return SteamVR_Actions.p_default_TrackPadPosition.GetCopy<SteamVR_Action_Vector2>();
             }
         }
         
@@ -240,7 +240,7 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
-                    SteamVR_Actions.default_TrackPadPosistion,
+                    SteamVR_Actions.default_TrackPadPosition,
                     SteamVR_Actions.default_NewAction,
                     SteamVR_Actions.default_TrackPadTouch,
                     SteamVR_Actions.default_Haptic,
@@ -262,7 +262,7 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
-                    SteamVR_Actions.default_TrackPadPosistion,
+                    SteamVR_Actions.default_TrackPadPosition,
                     SteamVR_Actions.default_NewAction,
                     SteamVR_Actions.default_TrackPadTouch,
                     SteamVR_Actions.platformer_Move,
@@ -295,7 +295,7 @@ namespace Valve.VR
                     SteamVR_Actions.default_Squeeze,
                     SteamVR_Actions.buggy_Throttle};
             Valve.VR.SteamVR_Input.actionsVector2 = new Valve.VR.SteamVR_Action_Vector2[] {
-                    SteamVR_Actions.default_TrackPadPosistion,
+                    SteamVR_Actions.default_TrackPadPosition,
                     SteamVR_Actions.platformer_Move,
                     SteamVR_Actions.buggy_Steering};
             Valve.VR.SteamVR_Input.actionsVector3 = new Valve.VR.SteamVR_Action_Vector3[0];
@@ -310,7 +310,7 @@ namespace Valve.VR
                     SteamVR_Actions.default_HeadsetOnHead,
                     SteamVR_Actions.default_SnapTurnLeft,
                     SteamVR_Actions.default_SnapTurnRight,
-                    SteamVR_Actions.default_TrackPadPosistion,
+                    SteamVR_Actions.default_TrackPadPosition,
                     SteamVR_Actions.default_NewAction,
                     SteamVR_Actions.default_TrackPadTouch,
                     SteamVR_Actions.platformer_Move,
@@ -333,7 +333,7 @@ namespace Valve.VR
             SteamVR_Actions.p_default_HeadsetOnHead = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/HeadsetOnHead")));
             SteamVR_Actions.p_default_SnapTurnLeft = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/SnapTurnLeft")));
             SteamVR_Actions.p_default_SnapTurnRight = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/SnapTurnRight")));
-            SteamVR_Actions.p_default_TrackPadPosistion = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/default/in/TrackPadPosistion")));
+            SteamVR_Actions.p_default_TrackPadPosition = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/default/in/TrackPadPosition")));
             SteamVR_Actions.p_default_NewAction = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/NewAction")));
             SteamVR_Actions.p_default_TrackPadTouch = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/default/in/TrackPadTouch")));
             SteamVR_Actions.p_default_Haptic = ((SteamVR_Action_Vibration)(SteamVR_Action.Create<SteamVR_Action_Vibration>("/actions/default/out/Haptic")));
